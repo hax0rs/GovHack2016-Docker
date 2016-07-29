@@ -1,0 +1,6 @@
+[submodule "site/dev"]
+	path = site/dev
+	url = git@github.com:hax0rs/GovHack2016.git
+[submodule "site/app"]
+	path = site/app
+	url = git@github.com:hax0rs/GovHack2016.git
