@@ -22,4 +22,9 @@ services:
       - site
 
   db:
-    image: redis:latest
+    image: klaemo/couchdb:latest
+    volumes:
+      - ./couchdb/:/usr/local/var/lib/couchdb:rw
+    environment:
+        COUCHDB_USER: admin
+        COUCHDB_PASSWORD: thememer
