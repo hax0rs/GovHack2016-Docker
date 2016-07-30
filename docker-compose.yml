@@ -9,6 +9,7 @@ services:
       - ./site/app:/usr/src/app:ro
     environment:
       DOCKER_DEV: "True"
+      FLASK_SECERT_KEY: "DootDoot"
 
   nginx:
     restart: always
